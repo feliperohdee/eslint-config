@@ -15,7 +15,7 @@ module.exports = {
     'rules': {
         'no-console': 0,
         'array-callback-return': 'warn',
-        'comma-dangle': ['warn', 'never'],l
+        'comma-dangle': ['warn', 'never'],
         'dot-location': ['warn', 'property'],
         'eqeqeq': ['warn', 'allow-null'],
         'new-parens': 'warn',
