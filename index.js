@@ -1,17 +1,21 @@
 module.exports = {
     'env': {
-        'es6': true,
+        'browser': true,
+        'es2017': true,
         'mocha': true,
         'node': true
     },
     'extends': 'eslint:recommended',
     'parserOptions': {
-        'ecmaVersion': 6
+        'ecmaFeatures': {
+            'jsx': true,
+            'spread': true
+        }
     },
     'rules': {
         'no-console': 0,
         'array-callback-return': 'warn',
-        'comma-dangle': ['warn', 'never'],
+        'comma-dangle': ['warn', 'never'],l
         'dot-location': ['warn', 'property'],
         'eqeqeq': ['warn', 'allow-null'],
         'new-parens': 'warn',
