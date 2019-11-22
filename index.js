@@ -1,15 +1,14 @@
 module.exports = {
     'env': {
         'browser': true,
-        'es2017': true,
         'mocha': true,
         'node': true
     },
     'extends': 'eslint:recommended',
     'parserOptions': {
+        'ecmaVersion': 2018,
         'ecmaFeatures': {
-            'jsx': true,
-            'spread': true
+            'jsx': true
         }
     },
     'rules': {
