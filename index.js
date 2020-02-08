@@ -4,7 +4,8 @@ module.exports = {
         'es2017': true,
         'mocha': true,
         'jest': true,
-        'node': true
+        'node': true,
+        'webextensions': true
     },
     'extends': 'eslint:recommended',
     'parserOptions': {
